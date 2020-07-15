@@ -83,17 +83,6 @@ assert os.path.isfile(GENOME_FA)
 
 K_FOLDS = 10  # Total number of k-folds
 
-LOCALIZATION_FULL_NAME_DICT = {
-    "Erm": "ER membrane",
-    "Lma": "Nuclear lamina",
-    "Mito": "Mito matrix",
-    "Nes": "Cytosol",
-    "Nik": "Nucleolus",
-    "Nls": "Nucleus",
-    "NucPore": "Nuclear pore",
-    "Omm": "Outer mito membrane",
-}
-LOCALIZATIONS = tuple(sorted(list(LOCALIZATION_FULL_NAME_DICT.keys())))
 
 class LocalizationTranscriptClassiifcationKmers(data.Dataset):
     """
