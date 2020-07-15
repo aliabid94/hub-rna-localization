@@ -97,7 +97,7 @@ def main():
             title="RNA Localization", description="This model predicts RNA localization to at least one of"
                                                   " eight subcellular compartments. The model is trained on APEX-seq "
                                                   "data.",
-            thumbnail="",
+            thumbnail="https://raw.githubusercontent.com/gradio-app/hub-rna-localization/master/thumbnail.png",
         ).launch()
 
 
