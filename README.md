@@ -1,7 +1,7 @@
 # RNA-GPS
 Interpretable model for predicting high-resolution RNA sub cellular localization to the following localizations. Please see https://github.com/wukevin/rnagps for original repo.
 
-!()[https://raw.githubusercontent.com/gradio-app/hub-rna-localization/master/thumbnail.png]
+![](https://raw.githubusercontent.com/gradio-app/hub-rna-localization/master/thumbnail.png)
 
 * ER Membrane
 * Nuclear lamina
