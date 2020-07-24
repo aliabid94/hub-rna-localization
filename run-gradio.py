@@ -94,7 +94,7 @@ def main():
     else:
         gr.Interface(
             pred_localization, inputs=["text", "text", "text"], outputs="text", examples=examples,
-            title="RNA Localization", description="This model, RNA-GPS, is trained on APEX-seq data, which measures RNA localization within human HEK293T cells. The model predicts localization of RNA transcripts to eight different sub-cellular compartments. Thes are the nucleus, nucleolus, nuclear pore, nuclear lamina, ER membrane, cytosol, outer mitochondrial membrane, and mitochondrial matrix. This model can be useful as a hypothesis generation tool, for example for studying SARS-CoV-2 RNA behaviors. Please see: 'RNA-GPS predicts high-resolution RNA subcellular localization and highlights the role of splicing' by Wu et al. (2020) for more information.",
+            title="RNA Localization", description="This model, RNA-GPS, is trained on APEX-seq data, which measures RNA localization within human HEK293T cells. The model predicts localization of RNA transcripts to eight different sub-cellular compartments. These are the nucleus, nucleolus, nuclear pore, nuclear lamina, ER membrane, cytosol, outer mitochondrial membrane, and mitochondrial matrix. This model can be useful as a hypothesis generation tool, for example for studying SARS-CoV-2 RNA behaviors. Please see: 'RNA-GPS predicts high-resolution RNA subcellular localization and highlights the role of splicing' by Wu et al. (2020) for more information.",
             thumbnail="https://raw.githubusercontent.com/gradio-app/hub-rna-localization/master/thumbnail.png",
         ).launch()
 
